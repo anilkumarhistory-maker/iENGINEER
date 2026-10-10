@@ -1,3 +1,4 @@
+```json
 {
   "compilerOptions": {
     "target": "ES2017",
@@ -31,5 +32,9 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "src/next-config.test.ts"
+  ]
 }
+```
